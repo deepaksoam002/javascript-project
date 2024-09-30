@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div><h1 class="heading">Calculate your BMI</h1> <div class="heading">Body mass index,or BMI, is used to determine whether you are in a healthy weight range for your height </div></div>
+        <div id="form">
+        <form>
+             <div class="inputbox">
+                <label>what is your weight?</label> <input type="text" placeholder="In kilograms"id="weight">
+             </div><br>
+             <div  class="inputbox">
+                <label>what is your height?</label> <input type="text" placeholder="In centimeter" id="height">
+             </div><br>
+             <div><button type="submit" class="submit" id="submit" >Calculate</button>
+                   <button type="reset" class="reset">Reset</button></div>
+             <div>
+                <p class="message" id="message"></p>
+                <p class="checkbmi"></p>
+            </div>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
